@@ -8,3 +8,8 @@ def format_name(full_name):
     else:
         return full_name  # return as-is if only one name is given
 
+# ---- runner so the script accepts input and shows output ----
+if __name__ == "__main__":
+    name = input("Enter full name: ").strip()
+    formatted = format_name(name)
+    print("Formatted:", formatted)
