@@ -30,10 +30,11 @@ class BankAccount:
 
 # --- Example usage ---
 # Create a new bank account for a user
-account1 = BankAccount("Varshitha", 1000)
+account1 = BankAccount("Deekshith", 1000)
 
 # Perform operations
 account1.deposit(500)
 account1.withdraw(300)
 account1.withdraw(1500)
 print(f"Final Balance: ₹{account1.get_balance()}")
+
