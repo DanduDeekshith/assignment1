@@ -12,3 +12,7 @@ def classify_age(age):
             print("Senior Citizen")
     else:
         print("Invalid age")
+
+# Calling the function
+age = int(input("Enter age: "))
+classify_age(age)
